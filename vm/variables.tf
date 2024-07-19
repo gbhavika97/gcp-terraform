@@ -1,6 +1,4 @@
-variable "credentials" {
-    default = "C:/Users/bavik/Documents/serviceacc.json"
-}
+
 variable "project_id" {
     default = "studious-spider-371813"
 }
@@ -28,7 +26,4 @@ variable "machine_type" {
 }
 variable "image" {
     default = "debian-cloud/debian-11"
-}
-variable "vm_static_ip" {
-    default = "demo-static-ip-west"
 }
