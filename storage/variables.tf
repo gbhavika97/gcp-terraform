@@ -1,6 +1,4 @@
-variable "credentials" {
-    default = "C:/Users/bavik/Documents/serviceacc.json"
-}
+
 variable "project_id" {
     default = "studious-spider-371813"
 }
