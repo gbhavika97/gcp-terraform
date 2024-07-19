@@ -58,13 +58,8 @@ resource "google_compute_instance" "vm_instance" {
       network = google_compute_network.vpc.self_link
       subnetwork = google_compute_subnetwork.subnet-1.self_link
       access_config {
-        nat_ip = google_compute_address.vm_static_ip.address
         
       }
     }
-  
-}
-resource "google_compute_address" "vm_static_ip" {
-    name = var.vm_static_ip
   
 }
